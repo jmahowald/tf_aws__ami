@@ -10,5 +10,5 @@ variable "volumetype" {
 }
 
 output "ami_id" {
-  value = "${lookup(var.amis, format(\"%s,amzn-ami-vpc-nat-%s-%s.x86_64-%s\", var.region, var.virttype, var.version, var.volumetype))}"
+  value = "${lookup(var.amis, format("%s,amzn-ami-vpc-nat-%s-%s.x86_64-%s", var.region, var.virttype, var.version, var.volumetype))}"
 }
