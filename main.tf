@@ -1,6 +1,6 @@
 variable "region" {}
 variable "version" {
-  default = "2015.03.0"
+  default = "2016.03.2"
 }
 variable "virttype" {
   default = "hvm"
