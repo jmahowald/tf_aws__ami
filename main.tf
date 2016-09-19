@@ -6,7 +6,7 @@ variable "virttype" {
   default = "hvm"
 }
 variable "volumetype" {
-  default = "gp2"
+  default = "ebs"
 }
 
 output "ami_id" {
